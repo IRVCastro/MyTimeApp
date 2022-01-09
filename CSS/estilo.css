@@ -1,0 +1,974 @@
+/*Inicio menu*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg{
+    background: #f0f2f5;
+}
+#menu_geral{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu_geral{
+    width: 100%;
+    top: 0px;
+    background-color: rgb(100, 99, 99);
+    padding: 5px;
+}
+.logo_geral img{
+    width: 200px;
+    height: 150px;
+}
+    /*Tentativa com botões*/
+
+    .button_menu button{
+        width: 45%;
+        margin: 5px;
+        background-color: black;
+    }
+    .button_menu button:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .button_menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .button_menu a:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .link_menu{
+        text-decoration: none;
+        color: white;
+    }
+    .button_cadastro2_geral button:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .button_cadastro2_geral a:hover{
+        color: black;
+    }
+
+    /*FIM -Tentativa com botões*/
+
+/*Fim - menu*/
+
+/*Inicio - main*/
+
+/*Primeira_division Inicio*/
+
+    .primeira_division{
+        margin-top: 20px;
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color:rgb(100, 99, 99);
+    }
+    .titulo_main{
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 5;
+    }
+    .texto_main{
+        text-align: center;
+        color: rgb(255, 217, 0);
+        font-family: 'Charlie Text',sans-serif;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .buttons{
+        margin-top: 15px;
+  
+    }
+    
+    .button_main li{
+        margin: 5px;
+    }
+
+    .button_cadastro2 button:hover{
+        background-color: yellow;
+    }
+    .button_cadastro2 a:hover{
+        color: black;
+    }
+   
+/*Primeira_division fim*/
+
+/*PUC - inicio*/
+    .puc{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(100, 99, 99);
+    }
+    .puc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .texto_puc h2{
+        color: white;
+        text-align: justify;
+    }
+
+    .texto_puc p{
+        color: rgb(255, 217, 0);
+        font-size: 1.4em;
+    }
+    .puc_logo img{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 45%;
+    }
+/*PUC - Fim*/
+
+/*tela_inicial - Inicio*/
+    .tela_inicial{
+        background-color: rgb(100, 99, 99);
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    .tela_inicial h1{
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+    }
+    .tela_inicial p{
+        color: rgb(255, 217, 0);
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .imagem_inicial img{
+        width: 100%;
+        padding: 5px;
+        background-color: yellow;
+    }
+
+/*tela_inicial - Fim*/
+
+/*Alarme - Inicio*/
+    .alarme{
+        background-color: rgb(100, 99, 99);
+        padding: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .alarme_texto h2{
+        color: white;
+        max-height: 200px;
+
+    }
+    .alarme_texto p{
+        color: rgb(255, 217, 0);
+        font-size: 1.4em;
+        text-align: justify;
+    }
+    .alarme_imagem img{
+        margin-left: 20%;
+    }
+/*Alarme - Fim*/
+
+/*Meta - Inicio*/
+    .meta{
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }
+    .meta_conteudo{
+        background-color: rgb(100, 99, 99);
+        padding: 20px;
+    }
+    .meta_conteudo h1{
+        text-align: center;
+        color: white;
+    }
+    .meta_conteudo iframe{
+        background-color: rgb(255, 217, 0);
+        padding: 5px;
+        width: 75%;
+        height: 600px;
+    }
+    .meta_conteudo iframe{
+        margin-left: 15%;
+    }
+    .meta_conteudo img{
+        display: none;
+    }
+
+
+/*Meta - Fim*/
+
+/*Calendario - Inicio*/
+    .calendario{
+        background-color: rgb(100, 99, 99);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .calendario_texto{
+        vertical-align: middle;
+        color: white;
+    }
+    .calendario_texto p{
+        font-size: 1.6em;
+        color: rgb(255, 217, 0);
+    }
+    .calendario_img img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+/*Calendario - Fim*/
+
+/*Lembrete - Inicio*/
+
+    .lembrete{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(100, 99, 99);
+        padding: 15px;
+    }
+    .lembrete_texto h1{
+        color: white;
+        text-align: center;
+    }
+    .lembrete_texto p{
+        color: rgb(255, 217, 0);
+        font-size: 1.6em;
+        text-align: justify;
+    }
+    .lembrete_img img{
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            margin-bottom: 15px;
+        }
+
+
+
+/*Lembrete - Fim*/
+
+
+/*Fim - main*/
+
+/*Inicio - footer*/
+    #footer_geral{
+        margin-top: 20px;
+        padding: 15px;
+        vertical-align: middle;
+        background-color: rgb(100, 99, 99);
+    }
+    #footer_geral{
+        text-align: center;
+        color: white;
+    }
+
+/*Fim - footer*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*Tela interna - Inicio*/
+
+/*MENU - Inicio*/
+
+    .menu_interno{
+        background-color: rgb(100, 99, 99);
+        padding: 25px;
+        
+    }
+    .menu_interno2{
+        color: white;
+        margin-bottom: 15px;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    
+    .menu_titulo_interno{
+        font-size: 1.5em;
+    }
+    
+    .config_icon i{
+        font-size: 1.6em;
+        cursor: pointer;
+    }  
+
+    .dont_show_config {
+        z-index: 999;
+        position: absolute;
+        padding: 0px;
+        right: 150px;
+        min-width: 150px;
+        width: auto;
+        list-style: none;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+        display: none;
+    }
+
+    #config_menu li{
+        display: block;
+        align-items: center;
+        padding: 15px;
+        background-color: #fff;
+    }
+
+    .config_menu_display{
+        margin-right: 200px;
+        z-index: 999;
+        position: absolute;
+        display: block;
+    
+    }
+    
+    .config_menu_item  a{
+        cursor: pointer;
+        font-family: "Montserrat",sans-serif;
+        display: block;
+        align-items: center;
+        font-size: 1.0em;
+        text-decoration:  none;
+        color: black !important;
+        
+    }
+
+    #config_menu li:hover{
+        background-color: rgb(196, 188, 188);
+        border-bottom: 3px solid #ffc107;
+        color: #ffc107;
+    }
+    .config_menu_item:hover > a{
+        color: #fd7e14 !important;
+        transition: color 0.5s;
+    }
+    .icones a{
+        cursor: pointer;
+        color:  rgb(255, 217, 0) ;
+    }
+    .clock_icon{
+        font-size: 1.5em;
+    }
+
+    .lembrete_icon{
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+
+    .menu_icons{
+        margin-bottom: -20px;
+        font-size: 1.5em;
+        color: rgb(255, 217, 0);
+        margin-left: 25%;
+    }
+    
+    .clock_icon i:hover{
+        color: black;
+        transition: color 0.5s;
+    }
+
+    .lembrete_icon i:hover{
+        color: black;
+        transition: color 0.5s;
+    }
+    
+    .calendario_icon{
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+    .calendario_icon i:hover{
+        color: black;
+        transition: color 0.5s;
+    }
+    
+    .down_seta i:hover{
+        transition: color 0.5s;
+        color: black;
+    }
+
+    
+    /*MENU - FIM*/
+    
+    /*MAIN - Inicio*/
+    
+    .despertadores{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: rgb(100, 99, 99);
+        padding: 20px;
+    }
+    
+    .despertar1{
+        color: white;
+        
+    }
+    
+    .despertar1 span{
+        font-size: 2.8em;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .descricao_despertar{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .descricao_despertar span{
+        color:rgb(255, 217, 0);
+    }
+    
+    .down_seta{
+        color: rgb(255, 217, 0);
+        font-size: 1.7em;
+    }
+
+    .down_seta i{
+        margin-left: 15px;
+        cursor: pointer;
+    }
+        
+    .delete_alarm{
+        position: absolute;
+        margin-left: 75%;
+    }
+    
+    /*MAIN - FIM*/
+    
+    /*Inicio - Footer*/
+    
+    #plus_alarm{
+        
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 3.5em;
+        height: 3.5em;
+        border-radius: 50%;
+        margin-left: 450px;
+        background-color:rgb(255, 217, 0);
+    }
+
+    .plus i{
+        font-size: 1.3em;
+        color: black;
+    }
+
+    .modal_select{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .modal_inicio{
+
+        background-color: #484848!important;
+    }
+    .modal-content{
+        background-color: #5F5F5F!important;
+        color: #eee!important;
+    }
+
+    .modal_btn{
+        background-color: #484848;
+        border-style: none;
+    }
+    
+    .modal_btn:hover{
+        background-color: rgb(226, 194, 11);
+        color: black;
+    }
+
+
+
+
+    /*FIm - Footer*/
+    /*Tela interna - Fim*/
+    
+    /*------------------------------------------------------------------------------------------------------------------*/
+    
+    /*Tela de Login - Inicio*/
+    
+    /*menu - Inicio*/
+    
+    .menu_login{
+        background-color: rgb(100, 99, 99);
+    }
+    .menu_login img{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 35%;
+    }
+    /*menu - Fim*/
+    
+    /*Main Inicio*/
+    
+    .main_login{
+        margin-top: 15px;
+    }
+    .main_input_login{
+        background-color:rgb(100, 99, 99);
+        padding: 30px;
+    }
+    .main_texto_input_login{
+        margin-top: 20px;
+    }
+    .main_texto_input p{
+        font-size: 1.7em;
+        color: white;
+    }
+    
+    .inputs{
+        border: none;
+        background-color: #fff;
+        border-radius: 15px;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        padding: 20px;
+    }
+    
+    .login_senha{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /*Caixa de inputs*/
+    .inputtext{
+        display: inline-block;
+        font-family: 'Open Sans Condensed', sans-serif;
+        border: 1px solid #dddfe2;
+        width: 100%;
+        padding: 15px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    
+
+
+    .exclamation{
+        display: none;
+        position: relative;
+        font-size: 1.4em;
+        color: red;
+        top: -45px;
+        margin-left: 95%;
+    }
+    #sucess_register{
+        font-size: 1.3em;
+    }
+
+    .button_entrar{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .button_cadastro{
+        text-align: center;
+        width: 100%;
+    }
+    .button_entrar button:hover{
+        
+        background-color: yellow;
+        color: black;
+    }
+    
+
+    .button_cadastro a{
+        text-decoration: none;
+        color: white;
+    }
+    .button_cadastro a:hover{
+        color: black;
+    }
+    .button_cadastro_mobile{
+        display: none;
+    }
+    
+    .link_senha{
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        border-bottom: 1px solid black;
+        margin-bottom: 15px;
+    }
+    
+    .btn-link{
+        text-decoration: none;
+    }
+    .btn-link:hover{
+        color: black;
+    }
+    
+    .button_entrar{
+        text-align: center;
+    }
+    
+    
+    .button:hover{
+        background: yellow;
+        color: black;    
+    }
+    
+    .button_cadastro button:hover{
+        
+        background-color: yellow;
+        color: black;
+    }
+    
+    /*Main Fim*/
+    
+    /*Footer - Inicio*/
+    
+    #footer_login{
+        text-align: center;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    /*Footer - FIm*/
+    
+    
+    /*Tela Login - Fim */
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*Tela de Cadastro - Inicio*/
+
+/*Menu - Inicio*/
+    .header_login{
+        margin-bottom: 15px;
+    }
+    .menu_cadastro{
+        background-color: rgb(100, 99, 99);
+        margin-bottom: 20px;
+    }
+    .menu_cadastro img{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 35%;
+    }
+
+
+
+/*Menu - Fim*/
+
+/*Main - Inicio*/
+
+    .inputs_cadastro{
+        margin: 15px auto;
+        border: none;
+        background-color: #fff;
+        border-radius: 15px;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        padding: 20px;
+    }
+
+    .main_texto_input_cadastro{
+        font-size: 1.7em;
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .texto_cadastro p{
+        text-align: center;
+        margin-top: 15px;
+        color: white;
+        font-size: 1.2em;
+    }
+    .conta a{
+        text-decoration: none;
+        color: black;
+    }
+
+/*Main - Fim*/
+
+
+/*Footer - Inicio*/
+
+    #footer_cadastro{
+        margin-top: 15px;
+        padding: 15px;
+        background-color: rgb(100, 99, 99);
+    }
+    #footer_cadastro p{
+        text-align: center;
+    }
+
+/*Footer - Fim*/
+
+/*Tela de Cadastro - Fim*/
+
+/*Tela de Lembrete - Inicio*/
+
+#lembrete_cadastrado{
+    padding: 15px;
+    color: white;
+    font-size: 1.0em;
+    border-right: 10px solid rgb(255, 217, 0);;
+}
+
+/*Tela de Lembrete - Fim*/
+
+/*Tela Calendario - INICIO*/
+
+    #html_calendario {
+        font-size: 62.5%;
+        margin: 0;
+    }
+
+    #corpo_calendario{
+        background-color: #f0f2f5;
+        font-family: "Quicksand",sans-serif;
+    }
+
+    #main_calendario{
+        width: 100%;
+        height: 100vh;
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .calendar {
+        width: 45rem;
+        height: 52rem;
+        background-color: #222227;
+        box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
+    }
+
+    .month {
+        width: 100%;
+        height: 12rem;
+        background-color: #d3a50d; /* #167e56 - opção de cor verde */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    }
+
+    .month i {
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    .month h1 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .month p {
+        font-size: 1.6rem;
+    }
+
+    .weekdays {
+        width: 100%;
+        height: 5rem;
+        padding: 0 0.4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .weekdays div {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        width: calc(44.2rem/7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    }
+
+    .days {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.2rem;
+    }
+
+    .days div {
+        font-size: 1.4rem;
+        margin: 0.3rem;
+        width: calc(40.2rem/7);
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+        transition: background-color 0.2s;
+    }
+
+    .days div:hover:not(.today) {
+        background-color: #262626;
+        border: 0.2rem solid #777;
+        cursor:pointer;
+    }
+
+    .prev-date, .next-date {
+        opacity: 0.5;
+    }
+
+    .today {
+        background-color: #d3a50d;
+        /* #167e56 - opção de cor verde */
+    }
+
+
+
+/*Tela Calendario - FIM*/
+
+
+/* ---------------------------------------------- MEDIA QUERY INICIO ------------------------------------------------------*/
+@media screen and (max-width:1400px){
+
+    .delete_alarm{
+        margin-left: 65%;
+    }
+}
+    @media screen and (max-width:990px){
+        .meta_conteudo iframe{
+            display: none;
+        }
+        .meta_conteudo img{
+            display: block;
+            margin-left: 25%;
+        }
+
+        .delete_alarm{
+            margin-left: 50%;
+        }
+    }
+    @media screen and (max-width:770px) {
+        
+        .button_menu button{
+            width: 100%;
+            margin: 5px;
+            background-color: black;
+        }
+    
+        .input_email input{
+            display: none;
+        }
+        .button_cadastro2_geral button{
+            margin-left: 0%;
+            margin-right: 0px;
+            width: 100%;
+        }
+    
+        .puc_logo img{
+            margin-left: 15%;
+        }
+        .alarme_imagem img{
+            margin-left: 1%;
+            height: 400px;
+            width: 100%;
+        }
+        .lembrete_img img{
+            margin-left: 15%;
+            margin-bottom: 15px;
+        }
+        .meta_conteudo img{
+            margin-left: 1%;
+            width: 100%;
+            height: 350px;
+        }
+        .config_icon i{
+            margin-left: 85%;
+        }
+
+        .exclamation{
+            margin-left: 85%;
+        }
+        .liga_desliga_botao{
+            position: relative;
+            left: 35%;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        .config_menu_display{
+            margin-left: 50%;
+        }
+        
+        .delete_alarm{
+            margin-left: 35%;
+        }
+
+
+    }
+    @media screen and (min-width:771px) and (max-width: 991px){
+        
+        .lembrete_img img{
+            margin-left: 30%;
+            margin-bottom: 15px;
+        }
+        .puc_logo img{
+            margin-left: 35%;
+        }
+    }
+    @media screen and (max-width: 580px){
+
+        .switch_btn{
+
+            top: 370px;
+        }
+
+        .switch{
+            left:  85.2%;
+        }
+
+        .delete_alarm{
+            margin-left: 50%;
+        }
+    }
+
+    @media screen and (max-width: 500px){
+    
+        .menu_login img{
+            margin-left: 5%;
+        }
+        .main_login{
+            width: 100%;
+            height: 100%;   
+            padding: 10px;
+        }
+        .main_input_login{
+            background-color: rgb(100, 99, 99);
+        }
+        .main_texto_input p{
+            width: 100%;
+            font-size: 1.2em;
+    
+        }
+        .menu_cadastro img{
+            margin-left: 3%;
+        }
+    
+        .button_cadastro{
+            display: none;
+        }
+        .button_cadastro_mobile{
+            margin-top: 15px;
+            display: block;
+        }
+        .button_cadastro_mobile button{
+            margin-left: 30%;
+        }
+        .button_cadastro_mobile button:hover{
+            background-color: yellow;
+            color: black;
+        }
+
+        .config_menu_display{
+            margin-left: 40%;
+        }
+    
+    }  
+ /* ---------------------------------------------- MEDIA QUERY FIM ------------------------------------------------------*/   

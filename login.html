@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <title>Login Mytime </title>
+
+    <script>
+        
+        window.onload = () =>{
+            
+            
+            if (localStorage.getItem('user')){
+                email.value = JSON.parse(localStorage.getItem('user')).name;
+            }
+
+            login.onsubmit = (evento) =>{
+                
+                //armazenamento de dados do login
+                let user = {name: email.value, senha: senha.value};
+
+                localStorage.setItem('user', JSON.stringify(user));
+
+                //se eu recebi os dados da pag de cadastro
+                if ( localStorage.getItem('dados')){
+
+                    //se os dados do login batem com os dados do cadastro
+                    if (email.value == JSON.parse(localStorage.getItem('dados')).emailC &&
+                       senha.value == JSON.parse(localStorage.getItem('dados')).password ){
+
+                        login_sucess.innerHTML = 'Login concluido';
+                        login_sucess.style.color = 'green';
+                    }
+                    else{
+
+                        login_sucess.innerHTML = 'Login inválido';
+                        login_sucess.style.color = 'red';
+                        evento.preventDefault();
+                    }
+                    
+                }
+            };
+
+        }
+        
+    </script>
+
+</head>
+
+<body class="bg">
+        
+    <header class="container header_login">
+        
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 menu_cadastro">
+                <a href="geral.html"><img src="_imagens/logo.png" alt="Mytime Logo"></a>
+            </div>
+        </div>
+    
+    </header>
+
+<main class="container main_login">
+
+    <div class="row main_input_login">
+            
+       <div class="col-12 col-sm-12 col-md-12 col-lg-6 main_texto_input">
+                
+            <p>O My Time ajuda você  a se organizar e levar uma vida mais disciplinada.</p>
+                
+        </div>
+                        
+                
+        <div class=" col-12 col-sm-12 col-md-12 col-lg-6 inputs_cadastro">
+                
+            <div class="row">
+                
+                <form class="login_senha" id="login" method="GET" action="interno.html">
+                  
+                    <div class="col-12 col-lg-12">
+                        
+                        <input type="text"  class="inputtext" placeholder="Email"  id="email" arial-label="Email">
+                            
+                        <input type="password" class="inputtext" id="senha" placeholder="Senha" aria-label="Senha">
+
+                        <span id="login_sucess"></span>
+                        
+                    </div>
+                        
+
+                    <div class="buttons">
+                                
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 button_entrar">
+                                    
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-dark" id="entrar" type="submit">Entrar</button>
+                            </div>    
+                                
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 link_senha">
+                            
+                            <button type="button" class="btn btn-link">Esqueceu a senha?</button>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 button_cadastro">
+
+                            <button type="button" class="btn btn-dark btn-lg"><a href="cadastro.html" target="_self">Cadastre-se </a> </button>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 button_cadastro_mobile">
+                            <button type="button" class="btn btn-dark btn-sm">Cadastre</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+    <footer class="container" id="footer_login">
+    
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+        
+                <p>Todos os direitos reservado - Trabalho de TIAW - PUC Minas 2021</p>
+            </div>
+        
+        </div>
+    </footer>
+
+</body>
+</html>
